@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Set;
 
-@Entity(name = "part")
+@Entity(name = "consumer_role")
 public class Role implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
